@@ -14,9 +14,9 @@ void loop()
 {
   val=analogRead(0); 
   if(val<512)
-  {
-    digitalWrite(led,HIGH);    
-  }
+    {
+      digitalWrite(led,HIGH);    
+    }
   else
-  digitalWrite(led,LOW);
+    digitalWrite(led,LOW);
 }
